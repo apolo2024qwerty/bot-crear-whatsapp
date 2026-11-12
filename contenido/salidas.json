@@ -7,13 +7,13 @@
 
   "salidas": [
     {
-      "titulo": "[EDITAR] Visita al Jardín Botánico",
-      "fecha": "[EDITAR] Viernes 20 de marzo",
-      "lugar": "[EDITAR] Jardín Botánico de Bogotá",
-      "grados": "[EDITAR] Tercero y cuarto",
-      "costo": "[EDITAR] $00.000",
-      "incluye": "[EDITAR] Transporte, entrada y refrigerio",
-      "fecha_limite_pago": "[EDITAR] Lunes 16 de marzo",
+      "titulo": " Visita al Jardín Botánico",
+      "fecha": " Viernes 20 de marzo",
+      "lugar": " Jardín Botánico de Bogotá",
+      "grados": " Tercero y cuarto",
+      "costo": " $80.000",
+      "incluye": " Transporte, entrada y refrigerio",
+      "fecha_limite_pago": " Lunes 16 de marzo",
       "nota": "",
       "activo": false
     }

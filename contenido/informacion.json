@@ -10,28 +10,28 @@
       "id": "calendario",
       "titulo": "📅 Calendario escolar",
       "resumen": "Fechas importantes del periodo",
-      "mensaje": "[EDITAR] Inicio de clases, entregas de informes, vacaciones y festivos.",
+      "mensaje": "Inicio de clases, entregas de informes, vacaciones y festivos.",
       "activo": true
     },
     {
       "id": "uniformes",
       "titulo": "👕 Uniformes",
       "resumen": "Dónde comprarlos y cuándo se usa cada uno",
-      "mensaje": "[EDITAR] Proveedor, dirección y horario de uso de cada uniforme.",
+      "mensaje": " Proveedor, dirección y horario de uso de cada uniforme.",
       "activo": true
     },
     {
       "id": "pagos",
       "titulo": "💳 Pagos y pensiones",
       "resumen": "Fechas y medios de pago",
-      "mensaje": "[EDITAR] Fecha límite de pago y cuentas o medios habilitados.",
+      "mensaje": " Fecha límite de pago y cuentas o medios habilitados.",
       "activo": true
     },
     {
       "id": "secretaria",
       "titulo": "🏫 Horario secretaría",
       "resumen": "Atención presencial y telefónica",
-      "mensaje": "[EDITAR] Lunes a viernes de 7:00 a.m. a 3:00 p.m.",
+      "mensaje": " Lunes a viernes de 7:00 a.m. a 3:00 p.m.",
       "activo": true
     }
   ]
