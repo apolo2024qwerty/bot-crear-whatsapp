@@ -25,7 +25,7 @@
   "con_cupos": "✅ *¡Tenemos {cupos_texto} en {grado}!*\n\nEstos son los pasos para continuar con el proceso:\n\n*1.* Adquiere el *PIN de inscripción* en la secretaría del colegio. Valor: $80.000.\n*2.* Acércate a la institución, compra el PIN y ten a la mano los siguinetes documentos (tarjeta identidad del estudiante y cedula del acudiente).\n*3.* Agendamos la entrevista con la familia y la valoración del aspirante.\n*4.* Te confirmamos el resultado y los pasos de matrícula.\n\n📍 *Dirección:* [Calle4D # 64A -17]\n🕗 *Horario de atención:* [7:00 am - 1:00 pm]",
 
   "pdf": {
-    "archivo": "https://drive.google.com/file/d/10Nz1PbWayqUF_co-d0uEfcsgMbd4bYO3/view",
+    "archivo": "portafolio.pdf",
     "nombre_archivo": "Portafolio de servicios CREAR.pdf",
     "mensaje": "📎 Aquí tienes nuestro portafolio de servicios con toda la información del colegio."
   },
