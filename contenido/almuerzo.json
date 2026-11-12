@@ -2,7 +2,7 @@
   "_ayuda": "Almuerzo. Pon \"inscripciones_abiertas\": false en vacaciones y el bot mostrará 'mensaje_cerrado'. Cada inscripción se guarda y te llega como notificación.",
 
   "inscripciones_abiertas": true,
-  "informacion": "🍽️ *Servicio de almuerzo*\n\n💲 Valor: [EDITAR $00.000] por día\n⏰ Inscríbete antes de las [EDITAR 9:00 a.m.] del día que lo necesitas.\n💳 Pago: [EDITAR]\n\n¿Quieres inscribir a tu hijo/a?",
+  "informacion": "🍽️ *Servicio de almuerzo*\n\n💲 *Valor por día:*\n• Preescolar y Primaria: $12.500\n• Bachillerato: $13.000\n\n⏰ Inscríbete antes de las *9:00 a.m.* del día que lo necesitas.\n💳 *Pago:* en efectivo con Glorita.\n\n¿Quieres inscribir a tu hijo/a?",
   "mensaje_cerrado": "🍽️ Por ahora las inscripciones de almuerzo están cerradas. Te avisaremos cuando se abran de nuevo.",
 
   "formulario": {
@@ -13,6 +13,6 @@
       "estudiante": "Escribe el *nombre completo del estudiante* ✍️",
       "dia": "¿Para qué día? Escribe por ejemplo *hoy*, *mañana* o *jueves 14* 📅"
     },
-    "confirmacion": "✅ ¡Listo! *{estudiante}* quedó inscrito/a para almorzar *{dia}*."
+    "confirmacion": "✅ ¡Listo! *{estudiante}* quedó inscrito/a para almorzar *{dia}*.\n\nRecuerda pagar en efectivo con Glorita."
   }
 }

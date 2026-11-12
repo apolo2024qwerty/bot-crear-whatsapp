@@ -65,6 +65,9 @@ def mostrar(payload):
                 nuevas.append((fila["id"], "list_reply"))
                 desc = f" {GRIS}— {fila['description']}{FIN}" if fila.get("description") else ""
                 print(f"     {AZUL}{len(nuevas)}.{FIN} {fila['title']}{desc}")
+        elif inter["type"] == "cta_url":
+            p = inter["action"]["parameters"]
+            print(f"     {AZUL}[🔗 {p['display_text']}]{FIN} → {p['url']}")
         else:
             for boton in inter["action"]["buttons"]:
                 nuevas.append((boton["reply"]["id"], "button_reply"))

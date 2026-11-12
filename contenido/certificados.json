@@ -10,8 +10,8 @@
     {
       "id": "estudio",
       "nombre": "Certificado de estudio",
-      "precio": "[EDITAR] $00.000",
-      "tiempo_entrega": "[EDITAR] 2 días hábiles",
+      "precio": "$11.000",
+      "tiempo_entrega": " 2 días hábiles",
       "descripcion": "Certifica que el estudiante está matriculado en el colegio.",
       "requisitos": "",
       "activo": true
@@ -19,8 +19,8 @@
     {
       "id": "notas",
       "nombre": "Certificado de notas",
-      "precio": "[EDITAR] $00.000",
-      "tiempo_entrega": "[EDITAR] 3 días hábiles",
+      "precio": "$11.000",
+      "tiempo_entrega": " 3 días hábiles",
       "descripcion": "Calificaciones de uno o varios años cursados.",
       "requisitos": "",
       "activo": true
@@ -28,17 +28,17 @@
     {
       "id": "paz_y_salvo",
       "nombre": "Paz y salvo",
-      "precio": "[EDITAR] $00.000",
-      "tiempo_entrega": "[EDITAR] 1 día hábil",
+      "precio": "$11.000",
+      "tiempo_entrega": " 1 día hábil",
       "descripcion": "Certifica que la familia está al día con el colegio.",
       "requisitos": "Estar al día en pagos.",
       "activo": true
     },
     {
       "id": "conducta",
-      "nombre": "Certificado de conducta",
-      "precio": "[EDITAR] $00.000",
-      "tiempo_entrega": "[EDITAR] 3 días hábiles",
+      "nombre": "Certificado",
+      "precio": "$11.000",
+      "tiempo_entrega": "3 días hábiles",
       "descripcion": "Comportamiento y convivencia del estudiante.",
       "requisitos": "",
       "activo": true

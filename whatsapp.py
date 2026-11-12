@@ -154,7 +154,19 @@ def lista(para, cuerpo, boton, filas, titulo_seccion="Opciones", contexto=None, 
     if pie:
         interactivo["footer"] = {"text": cortar(pie, 60)}
     return _enviar(para, {"type": "interactive", "interactive": interactivo})
-
+    
+def boton_enlace(para, cuerpo, texto_boton, url, encabezado=None, pie=None):
+    """Mensaje con un botón que abre un enlace (por ejemplo, el chat del colegio)."""
+    interactivo = {
+        "type": "cta_url",
+        "body": {"text": cortar(cuerpo, 1024)},
+        "action": {"name": "cta_url", "parameters": {"display_text": cortar(texto_boton, 20), "url": url}},
+    }
+    if encabezado:
+        interactivo["header"] = {"type": "text", "text": cortar(encabezado, 60)}
+    if pie:
+        interactivo["footer"] = {"text": cortar(pie, 60)}
+    return _enviar(para, {"type": "interactive", "interactive": interactivo})
 
 def documento(para, enlace, nombre_archivo, leyenda=""):
     contenido = {"link": enlace, "filename": nombre_archivo}

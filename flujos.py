@@ -477,7 +477,12 @@ def _humano(tel, s):
     enlace = f"https://wa.me/{h['numero']}"
     if h.get("mensaje_prellenado"):
         enlace += "?text=" + quote(h["mensaje_prellenado"])
-    _con_botones(tel, formatear(h["mensaje"], enlace=enlace), [_boton_menu(g)])
+    texto = formatear(h["mensaje"], enlace=enlace)
+    if h.get("boton_enlace"):
+        whatsapp.boton_enlace(tel, texto, h["boton_enlace"], enlace)
+    else:
+        whatsapp.texto(tel, texto)  # como texto normal el enlace sí se puede tocar
+    whatsapp.botones(tel, g["textos"]["elige_opcion"], [_boton_menu(g)])
 
 
 # ===========================================================================

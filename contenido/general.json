@@ -58,10 +58,11 @@
     "acudiente": "Acudiente"
   },
 
-  "humano": {
+    "humano": {
     "_ayuda": "numero: el WhatsApp principal del colegio, solo dígitos con 57 adelante (ej: 573001234567).",
-    "numero": "57XXXXXXXXXX",
+    "numero": "573118537912",
     "mensaje_prellenado": "Hola, vengo del menú de WhatsApp de CREAR",
-    "mensaje": "🙋 Con gusto te atiende una persona del colegio.\n\nEscríbenos aquí 👉 {enlace}\n\n🕗 Horario de atención: [EDITAR] lunes a viernes de 7:00 a.m. a 3:00 p.m."
+    "boton_enlace": "Escribir al colegio",
+    "mensaje": "🙋 Con gusto te atiende una persona del colegio.\n\nToca el botón *Escribir al colegio* y te responderemos lo antes posible.\n\n🕗 Horario de atención: lunes a viernes de 7:00 a.m. a 3:00 p.m."
   }
 }

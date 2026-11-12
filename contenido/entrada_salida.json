@@ -1,7 +1,7 @@
 {
   "_ayuda": "Llegadas tarde y salidas temprano. Cada aviso se guarda y te llega como notificación con el nombre, grado y hora.",
 
-  "informacion": "🕗 *Llegadas y salidas*\n\n🏫 Entrada: [EDITAR 6:45 a.m.]\n🏠 Salida: [EDITAR 3:00 p.m.]\n\nSi tu hijo/a va a llegar tarde o necesita salir antes, avísanos aquí y quedará registrado para portería y coordinación.",
+  "informacion": "🕗 *Llegadas y salidas*\n\n🏫 Entrada: [ 7:00 a.m.]\n🏠 Salida: [3:00 p.m.]\n\nSi tu hijo/a va a llegar tarde o necesita salir antes, avísanos aquí y quedará registrado para portería y coordinación.",
 
   "llegada_tarde": {
     "boton": "⏰ Llegará tarde",
